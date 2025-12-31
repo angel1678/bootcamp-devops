@@ -1,0 +1,7 @@
+echo name: Saludo > .github\workflows\primer-robot.yml
+echo on: [push] >> .github\workflows\primer-robot.yml
+echo jobs: >> .github\workflows\primer-robot.yml
+echo   saludar: >> .github\workflows\primer-robot.yml
+echo     runs-on: ubuntu-latest >> .github\workflows\primer-robot.yml
+echo     steps: >> .github\workflows\primer-robot.yml
+echo       - run: echo "Hola DevOps, todo el sistema operativo." >> .github\workflows\primer-robot.yml
